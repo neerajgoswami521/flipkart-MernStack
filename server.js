@@ -28,7 +28,7 @@ const password = process.env.DB_USERPASSWORD;
 
 const URL = `mongodb+srv://${username}:${password}@cluster0.zg7mf.mongodb.net/FLIPKART-CLONE?retryWrites=true&w=majority`;
 
-Connection(process.env.MONGODB_URL || URL);
+Connection(process.env.MONGODB_URI || URL);
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'))
 }
