@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -23,5 +22,7 @@
     "mongoose": "^5.12.13",
     "nodemon": "^2.0.7",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
